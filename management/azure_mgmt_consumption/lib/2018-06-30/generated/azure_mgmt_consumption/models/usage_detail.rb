@@ -240,7 +240,7 @@ module Azure::Consumption::Mgmt::V2018_06_30
                 read_only: true,
                 serialized_name: 'properties.usageQuantity',
                 type: {
-                  name: 'Number'
+                  name: 'Double'
                 }
               },
               billable_quantity: {
@@ -249,7 +249,7 @@ module Azure::Consumption::Mgmt::V2018_06_30
                 read_only: true,
                 serialized_name: 'properties.billableQuantity',
                 type: {
-                  name: 'Number'
+                  name: 'Double'
                 }
               },
               pretax_cost: {
